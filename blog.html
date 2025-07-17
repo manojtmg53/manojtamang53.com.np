@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | Manoj Tamang</title>
+    <meta name="description" content="Read my latest articles and thoughts">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg"></div>
+    
+    <!-- Navigation -->
+    <nav class="glass-nav">
+        <div class="container">
+            <a href="index.html" class="logo">INFO MANOJ</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="blog.html" class="active">Blog</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <div class="nav-indicator"></div>
+            </div>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Blog Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 data-aos="fade-up">My Blog</h1>
+            <p data-aos="fade-up" data-aos-delay="100">Thoughts, tutorials, and personal experiences</p>
+        </div>
+    </section>
+
+    <!-- Blog Posts -->
+    <section class="blog-posts">
+        <div class="container">
+            <div class="posts-grid">
+                <!-- Post 1 -->
+                <article class="post-card" data-aos="fade-up">
+                    <div class="post-image">
+                        <img src="assets/images/blog1.jpg" alt="Web Development">
+                        <div class="post-date">May 15</div>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-category">Technology</div>
+                        <h3>My Web Development Journey</h3>
+                        <p>How I went from beginner to building modern websites in just 6 months...</p>
+                        <a href="blog-post-1.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Post 2 -->
+                <article class="post-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="post-image">
+                        <img src="assets/images/blog2.jpg" alt="Nepal Travel">
+                        <div class="post-date">May 10</div>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-category">Travel</div>
+                        <h3>Hidden Gems of Nepal</h3>
+                        <p>Exploring lesser-known but breathtaking locations in my home country...</p>
+                        <a href="blog-post-2.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Post 3 -->
+                <article class="post-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="post-image">
+                        <img src="assets/images/blog3.jpg" alt="Productivity">
+                        <div class="post-date">May 5</div>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-category">Productivity</div>
+                        <h3>My Daily Routine</h3>
+                        <p>How I structure my day for maximum productivity without burnout...</p>
+                        <a href="blog-post-3.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Pagination -->
+<div class="pagination" data-aos="fade-up">
+    <a href="#" class="page-btn">
+        <i class="fas fa-chevron-left"></i>
+    </a>
+    <a href="#" class="page-num active">1</a>
+    <a href="#" class="page-num">2</a>
+    <a href="#" class="page-num">3</a>
+    <span class="page-dots">...</span>
+    <a href="#" class="page-num">8</a>
+    <a href="#" class="page-btn">
+        <i class="fas fa-chevron-right"></i>
+    </a>
+</div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container" data-aos="fade-up">
+            <h2>Stay Updated</h2>
+            <p>Subscribe to my newsletter for new post notifications</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Your email address" required>
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="glass-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>Manoj Tamang</h3>
+                    <p>Sharing knowledge through blog posts and tutorials.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="#">Technology</a></li>
+                        <li><a href="#">Travel</a></li>
+                        <li><a href="#">Productivity</a></li>
+                        <li><a href="#">Personal</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Manoj Tamang. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>
